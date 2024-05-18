@@ -1,0 +1,63 @@
+#container {
+    display: flex;
+    overflow-x: hidden; /* Hide overflow to prevent horizontal scrollbar */
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+  
+  .box {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: transform 0.5s ease;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    margin-top: 5%;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+  
+  .slide-in {
+    animation-name: slideIn;
+  }
+  
+  .slide-out {
+    animation-name: slideOut;
+  }
+  
+  #controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+ 
+  

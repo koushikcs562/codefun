@@ -1,0 +1,30 @@
+#hashMapContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bucket {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: background-color 0.5s;
+}
+
+.added {
+    background-color: lightgreen;
+}
+
+.removed {
+    background-color: tomato;
+}
+
+.searched {
+    background-color: lightblue;
+}

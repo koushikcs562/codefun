@@ -1,0 +1,41 @@
+.stack-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 60%;
+    
+  }
+  
+  .stack {
+    width: 120px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 0px 0px 10px 10px;
+    
+  }
+  
+  .stack-item {
+    width: 100px;
+    height: 40px;
+    background-color: #3498db;
+     padding: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .stack-item:nth-child(even) {
+    background-color: #9fe3ee;
+  }
+  
+  .stack-item:nth-child(odd) {
+    background-color: #3498db;
+  }
+  
+  .img{
+    padding-top: 5px;
+  }
+  

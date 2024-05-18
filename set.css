@@ -1,0 +1,25 @@
+#hashSetContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.hashSetElement {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.added {
+    background-color: lightgreen;
+}
+
+.removed {
+    background-color: tomato;
+}

@@ -1,0 +1,8 @@
+# Ignore all AppData content
+/AppData/
+
+# Ignore other common system directories
+/node_modules/
+*.log
+*.tmp
+*.lock

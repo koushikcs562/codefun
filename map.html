@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HashMap Animation</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+<body>
+   <div>
+    <img src="https://javaconceptoftheday.com/wp-content/uploads/2016/02/HashMapInternalStructure.png" style="height: 370px; width: 600px;" alt="">
+   </div>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Element</button>
+   
+    <button onclick="resizeHashMap()">Resize HashMap</button>
+    <div id="hashMapContainer">
+        <!-- Buckets will be added dynamically here -->
+    </div>
+    <p id="operationMessage"></p>
+    <script src="map.js"></script>
+</body>
+</html>

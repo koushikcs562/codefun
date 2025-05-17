@@ -63,9 +63,6 @@ School Children
 
 7.  **Access the Application:** Open your web browser and navigate to the address where the frontend is running (usually `http://localhost:3000`).
 
-## Contributing
-
-[Add information about how others can contribute to your project if you plan to open-source it.]
 
 ## Contact
 
